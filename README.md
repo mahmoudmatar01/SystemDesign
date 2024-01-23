@@ -2,12 +2,11 @@
 Welcome to the world of System Design! It's like being the architect of a digital building, where we plan and organize how everything will work together. Imagine you're creating a recipe for a dish – you need the right ingredients, the right steps, and a way to make sure it turns out great every time. That's what system design is all about for computers and software.
 
 ## Table of Contents
-1. [Introduction to System Design](#introduction-to-system-design)
-   - [System Design Components](#system-design-components)
-     - [Frontend](#frontend)
-     - [DNS (Domain Name System)](#dns-domain-name-system)
-     - [Web Server](#web-server)
-     - [Database](#database)
+1. [System Design Components](#system-design-components)
+   - [Frontend](#frontend)
+   - [DNS (Domain Name System)](#dns-domain-name-system)
+   - [Web Server](#web-server)
+   - [Database](#database)
 2. [Scaling the System](#scaling-the-system)
    - [Vertical Scaling](#vertical-scaling)
    - [Horizontal Scaling](#horizontal-scaling)
