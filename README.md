@@ -26,25 +26,25 @@ Welcome to the world of System Design! It's like being the architect of a digita
 
 ## System Design Components
 ### Frontend
-The frontend is like the face of the system, where users see and interact with everything. It includes:
+The front end is like the face of the system, where users see and interact with everything. It includes:
 - `User Interface (UI)`: This is how things look on the application – what users click, type, and see.
 - `User Experience (UX)`: It's how users feel when they use the application, the overall experience.
 - `Client-side Code`: This is the behind-the-scenes code (HTML, CSS, JavaScript) that runs in users' web browsers.
-- `Frontend Frameworks`: These are tools that make it easier to build and organize the frontend (like React, Angular, or Vue.js).
+- `Frontend Frameworks`: These are tools that make it easier to build and organize the front (like React, Angular, or Vue.js).
 
 ### DNS (Domain Name System)
 DNS is like the phonebook of the internet, turning easy-to-remember names into computer-friendly numbers. It involves:
 - `Domain Registrar`: This is like the store where you buy and manage your website's name.
-- `Name Servers`: These are servers that keep important info about website names.
+- `Name Servers`: These servers keep important information about website names.
 - `DNS Records`: They're like cards with details about a website – where it is, where emails go, and more.
-- `DNS Resolver`: This is a helpful service that finds out the numbers (IP addresses) when you give it a website name.
+- `DNS Resolver`: This is a helpful service that finds the numbers (IP addresses) when you give it a website name.
 
 DNS is a hierarchical system involving various servers that work together to translate user-friendly domain names into the numeric IP addresses that computers use to communicate on the internet. This process happens behind the scenes every time you access a website.
 
 ### Web Server
 The web server is like the waiter at a restaurant, taking orders and bringing back what's requested. It does things like:
 - `HTTP Server`: It handles requests from web browsers and sends back what's needed.
-- `Load Balancer`: It's like making sure no waiter is too busy – spreading the work between servers.
+- `Load Balancer`: It's like ensuring no waiter is too busy – spreading the work between servers.
 - `SSL/TLS` Certificates: These are like secret codes that keep information safe when it travels between the user and the server.
 - `Web Application Firewall (WAF)`: It's like a bouncer at a club, keeping out trouble from the website.
 
@@ -82,9 +82,9 @@ Welcome to the In-Memory Database (Cache) section! This guide will provide insig
 In-memory databases store and retrieve data in the system's main memory (RAM), providing faster access compared to traditional disk-based databases. Caching frequently accessed data in memory can significantly improve application performance.
 
 ### 2. Write Strategies
-- `Write Behind`: Write behind strategy involves writing data to the cache and acknowledging the write operation before updating the underlying data store asynchronously.
-- `Write Around`: Write around strategy involves bypassing the cache and writing directly to the underlying data store. The data is brought into the cache on-demand.
-- `Write Through`: Write through strategy involves writing data both to the cache and the underlying data store synchronously.
+- `Write Behind`: The write-behind strategy involves writing data to the cache and acknowledging the write operation before updating the underlying data store asynchronously.
+- `Write Around`: The write-around strategy involves bypassing the cache and writing directly to the underlying data store. The data is brought into the cache on demand.
+- `Write Through`: The write-through strategy involves writing data both to the cache and the underlying data store synchronously.
 
 ### 3. Cache Limitations
 - `Size Limitation`: Caches have a finite size, and managing data that exceeds this size can lead to performance issues.
@@ -106,7 +106,7 @@ Cons: Requires maintaining and updating access frequency counters for each item.
 ### 6. What Happens If Cache Goes Down?
 - If the cache goes down:
 `Reads`: Applications may experience slower response times as they need to fetch data from the main data store.
-`Writes`: Write strategies (write behind, write around, or write through) will determine the impact on write operations.
+`Writes`: Write strategies (write-behind, write around, or write through) will determine the impact on write operations.
 
 
 ## Content Delivery Networks (CDN)
@@ -123,6 +123,6 @@ Time to Live (TTL) is a setting that defines the lifespan of content in a cache,
 
 Congratulations on navigating through the world of system design and scaling strategies! By understanding the key components of system design, exploring scaling techniques, delving into in-memory database caching, and appreciating the role of Content Delivery Networks (CDN), you've gained valuable insights into architecting robust and scalable systems.
 
-Remember, the key to success lies in selecting the right ingredients for your digital building – the frontend, DNS, web server, and database – and applying scaling strategies that suit your specific needs. The journey doesn't end here; continuous learning and adaptation are essential in the ever-evolving landscape of technology.
+Remember, the key to success lies in selecting the right ingredients for your digital building – the front end, DNS, web server, and database – and applying scaling strategies that suit your specific needs. The journey doesn't end here; continuous learning and adaptation are essential in the ever-evolving landscape of technology.
 
-Whether you're building a system to accommodate millions of users or optimizing content delivery with CDN, the principles outlined in this guide will serve as a foundation for creating efficient, responsive, and reliable digital experiences. Best of luck on your system design endeavors, and may your systems scale seamlessly to meet the demands of the digital world!
+Whether you're building a system to accommodate millions of users or optimizing content delivery with CDN, the principles outlined in this guide will serve as a foundation for creating efficient, responsive, and reliable digital experiences. Best of luck with your system design endeavors, and may your systems scale seamlessly to meet the demands of the digital world!
