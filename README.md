@@ -1,4 +1,4 @@
-# How To Scale Your System To Millions Of Users README
+# How To Scale Your System To Millions Of Users 
 Welcome to the world of System Design! It's like being the architect of a digital building, where we plan and organize how everything will work together. Imagine you're creating a recipe for a dish – you need the right ingredients, the right steps, and a way to make sure it turns out great every time. That's what system design is all about for computers and software.
 
 ## Table of Contents
